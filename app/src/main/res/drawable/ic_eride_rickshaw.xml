@@ -1,0 +1,152 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Subtle Drop Shadow under wheels -->
+    <path
+        android:fillColor="#1A000000"
+        android:pathData="M24,96 C24,94 40,94 40,96 C40,98 24,98 24,96 Z M80,96 C80,94 96,94 96,96 C96,98 80,98 80,96 Z" />
+
+    <!-- Chassis Base Frame -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M26,79 L84,79 C85.5,79 86.5,78 86,76.5 L83,70 L72,70 L70,75 L28,75 Z" />
+
+    <!-- Rear Wheel Assembly (Double wheel perspective) -->
+    <!-- Rear Tire -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M32,76 C38.6,76 44,81.4 44,88 C44,94.6 38.6,100 32,100 C25.4,100 20,94.6 20,88 C20,81.4 25.4,76 32,76 Z" />
+    <!-- Rear Rim Outer -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M32,80 C36.4,80 40,83.6 40,88 C40,92.4 36.4,96 32,96 C27.6,96 24,92.4 24,88 C24,83.6 27.6,80 32,80 Z" />
+    <!-- Rear Wheel Spokes / Hub -->
+    <path
+        android:fillColor="#00A86B"
+        android:pathData="M32,84 C34.2,84 36,85.8 36,88 C36,90.2 34.2,92 32,92 C29.8,92 28,90.2 28,88 C28,85.8 29.8,84 32,84 Z" />
+    <path
+        android:fillColor="#FFB800"
+        android:pathData="M32,86 C33.1,86 34,86.9 34,88 C34,89.1 33.1,90 32,90 C30.9,90 30,89.1 30,88 C30,86.9 30.9,86 32,86 Z" />
+
+    <!-- Front Wheel Assembly -->
+    <!-- Front Tire -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M88,78 C94,78 99,83 99,89 C99,95 94,100 88,100 C82,100 77,95 77,89 C77,83 82,78 88,78 Z" />
+    <!-- Front Rim -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M88,82 C91.9,82 95,85.1 95,89 C95,92.9 91.9,96 88,96 C84.1,96 81,92.9 81,89 C81,85.1 84.1,82 88,82 Z" />
+    <!-- Front Wheel Hub -->
+    <path
+        android:fillColor="#00A86B"
+        android:pathData="M88,85.5 C89.9,85.5 91.5,87.1 91.5,89 C91.5,90.9 89.9,92.5 88,92.5 C86.1,92.5 84.5,90.9 84.5,89 C84.5,87.1 86.1,85.5 88,85.5 Z" />
+    <path
+        android:fillColor="#FFB800"
+        android:pathData="M88,87.2 C89.2,87.2 90.2,88.2 90.2,89 C90.2,89.8 89.2,90.8 88,90.8 C86.8,90.8 85.8,89.8 85.8,89 C85.8,88.2 86.8,87.2 88,87.2 Z" />
+
+    <!-- Front Mudguard Fender -->
+    <path
+        android:fillColor="#0B6623"
+        android:pathData="M78,84 C78,79 83,75 89,75 C94,75 98,78 99.5,81 L96.5,83 C95,80.5 92,78.5 89,78.5 C84.5,78.5 81,81.5 80.5,85.5 Z" />
+
+    <!-- Front Telescopic Suspension Fork -->
+    <path
+        android:fillColor="#64748B"
+        android:pathData="M87,89 L76,57 L79,56 L90,88 Z" />
+
+    <!-- Passenger Cabin Body & Battery Compartment (Solid Brand Green) -->
+    <path
+        android:fillColor="#00A86B"
+        android:pathData="M22,66 L22,79 C22,81.5 24,83 26.5,83 L58,83 C60.5,83 62,81.5 62,79 L62,66 Z" />
+
+    <!-- Lower Body Dark Trim -->
+    <path
+        android:fillColor="#0B6623"
+        android:pathData="M22,77 L22,80 C22,82 23.5,83 25.5,83 L58.5,83 C60.5,83 62,82 62,80 L62,77 Z" />
+
+    <!-- Electric Energy Lightning Bolt Emblem on Body -->
+    <path
+        android:fillColor="#FFB800"
+        android:pathData="M44,68 L37,74 L42,74 L38,81 L47,73 L42,73 Z" />
+
+    <!-- Passenger Seating Interior (Rear Seat Bench & Backrest) -->
+    <path
+        android:fillColor="#334155"
+        android:pathData="M25,50 L28,50 L28,66 L25,66 Z" />
+    <path
+        android:fillColor="#475569"
+        android:pathData="M27,62 L48,62 C49,62 50,63 50,64 L50,67 L27,67 Z" />
+
+    <!-- Driver Seat -->
+    <path
+        android:fillColor="#334155"
+        android:pathData="M56,63 L65,63 C66,63 67,64 67,65 L67,68 L56,68 Z" />
+
+    <!-- Front Apron / Cowl / Fairing (Brand Green with Headlight) -->
+    <path
+        android:fillColor="#00A86B"
+        android:pathData="M71,56 L83,67 C84.5,68.5 85,71 83.5,73 L80,78 L68,78 L67,73 L74,68 L68,57 Z" />
+
+    <!-- Front Apron Accent (Yellow / Amber Strip) -->
+    <path
+        android:fillColor="#FFB800"
+        android:pathData="M78,69 L81,72 L77,75 L74,72 Z" />
+
+    <!-- Front Headlight (Bright Glowing White/Amber) -->
+    <path
+        android:fillColor="#FEF08A"
+        android:pathData="M83,68 C84.5,69 85,71 84.5,72.5 L82.5,72 C83,71 82.5,69.5 81.5,69 Z" />
+
+    <!-- Windshield Glass (Light Blue/White Aero Tint) -->
+    <path
+        android:fillColor="#BAE6FD"
+        android:pathData="M76,33 L69,57 L75,56 L81,35 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M78,35 L73,55 L74.5,54.5 L79.5,35 Z" />
+
+    <!-- Handlebars -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M67,54 C66,54 65,55 65,56 L69,56 C69,55 68,54 67,54 Z" />
+
+    <!-- Roof Structural Tubular Pillars -->
+    <!-- Rear Pillar -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M23,34 L26,34 L26,66 L23,66 Z" />
+    <!-- Mid Passenger Pillar -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M50,33 L52.5,33 L52.5,66 L50,66 Z" />
+    <!-- Front Windshield Strut -->
+    <path
+        android:fillColor="#64748B"
+        android:pathData="M80,33 L82,34 L76,57 L74,56 Z" />
+
+    <!-- Passenger Cabin Side Tubular Safety Rails (Signature Indian Toto / E-Rickshaw Rails) -->
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M26,52 L50,52 L50,54 L26,54 Z" />
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M26,58 L50,58 L50,60 L26,60 Z" />
+
+    <!-- Roof Canopy (Aerodynamic curved e-rickshaw roof) -->
+    <path
+        android:fillColor="#0B6623"
+        android:pathData="M18,34 C18,31 22,29 27,29 L76,28 C82,28 86,30 89,33 C89.5,33.5 88.5,35 87,35 L81,35 C78,32 74,31 70,31 L27,32 C23,32 20,33.5 19.5,35.5 Z" />
+    <path
+        android:fillColor="#00A86B"
+        android:pathData="M20,32 C20,30 23,28.5 28,28.5 L75,27.5 C81,27.5 85,29.5 88,32.5 L86,34 C83,31.5 79,30.5 75,30.5 L28,31.5 C24,31.5 21.5,32.5 21,34 Z" />
+
+    <!-- Roof Top Accent Stripe (Light Green / Eco Line) -->
+    <path
+        android:fillColor="#86EFAC"
+        android:pathData="M28,29 L73,28 C76,28 78,28.5 80,29.5 L79,30.5 C77,29.5 75,29 72,29 L28,30 Z" />
+
+</vector>

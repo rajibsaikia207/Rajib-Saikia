@@ -1,0 +1,6 @@
+{
+  "name": "E-Ride 3",
+  "description": "E-Rickshaw Ride Booking & Driver Platform for Assam",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

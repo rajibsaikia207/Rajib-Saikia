@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- E-Ride 3 Brand Green Background -->
+    <path
+        android:fillColor="#00A86B"
+        android:pathData="M0,0h108v108h-108z" />
+    <!-- Gradient accent highlight -->
+    <path
+        android:fillColor="#0B6623"
+        android:pathData="M0,80 L108,40 L108,108 L0,108 Z" />
+</vector>

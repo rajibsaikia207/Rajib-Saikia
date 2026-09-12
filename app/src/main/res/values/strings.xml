@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">E-Ride 3</string>
+    <string name="driver_app_title">E-Ride 3 Driver</string>
+    <string name="passenger_app_title">E-Ride 3 Passenger</string>
+    <string name="admin_app_title">E-Ride 3 Admin</string>
+</resources>
